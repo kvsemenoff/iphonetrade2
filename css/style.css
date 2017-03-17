@@ -1,2 +1,66 @@
-@import url(reset.css);@import url(fonts.css);@import url(style-dd.css);@import url(style-db.css);@import url(style-dc.css);@import url(style-de.css);@import url(style-df.css);@import url(style-dg.css);@import url(style-dh.css);@import url(style-di.css);@import url(style-dj.css);.clear{clear:both}.center{text-align:center}
+@import url(reset.css);
+@import url(fonts.css);
+@import url(style-da.css);
+@import url(style-db.css);
+@import url(style-dc.css);
+@import url(style-de.css);
+@import url(style-df.css);
+@import url(style-dg.css);
+@import url(style-dh.css);
+@import url(style-di.css);
+@import url(style-dj.css);
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+.button1{
+      width: 277px;
+      height: 77px;
+      outline         : none;
+      border          : none;
+      color           : white;
+      font-size       : 24px;
+      font-weight     : 500;
+      text-transform  : uppercase;
+      background-color: #d5652c;
+      font-family     : 'Lato', sans-serif;
+      letter-spacing  : 0.02em;
+      padding         : 22px 31px;
+      border-radius   : 42px;
+    }
+    .button2{
+      outline      : none;
+      background-color: #fff;
+      padding: 17px 42px;
+      font-size: 20px;
+      color:#d5652c; 
+      border-radius: 35px;
+      border: 2px solid #d5652c;
+      font-family: 'Lato-Regular', sans-serif;
+      min-width:240px;
+  }
+  .button-mobile{
+      border: 2px solid #3c9a00;
+      color:#3c9a00; 
+  }
+  .input1{
+    outline       : none;
+    border        : none;
+    border-bottom : 1px solid #b5b5b5;
+    font-size     : 14px;
+    font-family   : 'Lato', sans-serif;
+    font-weight   : 300;
+    background    : white;
+    color         : #757575;
+    padding-bottom: 13px;
+    padding-left  : 12px;
+    width         : 320px;
+  
+  }
+
+body{
+    width: 100%; 
+  }
 /*# sourceMappingURL=style.css.map */
