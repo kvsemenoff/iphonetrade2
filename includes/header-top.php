@@ -20,9 +20,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="wrap-button">
-							<div class="dfbutton">
-						<a href="#js-form2" class="button2" name="js-modal">&#160;&#160;&#160;&#160;Заказать&#160;&#160;&#160;&#160;</a>
-					</div>
+							<a href="#js-form1" name="js-modal" class="button2">Заказать звонок</a>
 						</div>
 					</div>
 					<div class="black-line"></div>
