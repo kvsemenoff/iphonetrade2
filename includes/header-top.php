@@ -67,7 +67,9 @@
 				<div class="row">
 					<div class="col-sm-1"></div>
 					<div class="col-sm-10">
-						<div class="mobile-logo"></div>
+							<div class="wrap-mobile-logo">
+								<img src="../img/logo.png" width="284" height="53" alt="">
+							</div>
 						<div class="wrap-mobile-phone">
 							<div class="mobile-phone"></div>
 							<div class="mobile-number"><span>8 (812) 602-75-21</span></div>
@@ -129,4 +131,3 @@
 			</div>
 		</div>
 	</section>
-

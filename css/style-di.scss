@@ -18,7 +18,11 @@ $f-s: "Lato-Semibold";
 	margin-top: 10px;
     margin-left: 40px;
 }
+.wrap-mobile-logo{
+	margin-left: 30px;
+}
 .mobile-logo{
+	max-width: 70%;
 	margin-top: 22px; 
 	width: 336px;
 	height: 63px;
@@ -178,6 +182,7 @@ $f-s: "Lato-Semibold";
 		}
 	}
 	.wrap-phone{
+		min-width: 200px; 
 		position: absolute;
 		display: inline-block;
 		margin: -32px 56px;
