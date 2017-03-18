@@ -50,9 +50,9 @@
 								</div>
 							</div>
 							<div class="timer">
-								<div class="box"><span class="time">06</span><br><span class="time-text">часов</span></div>
-								<div class="box"><span class="time">25</span><br><span class="time-text">минут</span></div>
-								<div class="box"><span class="time">54</span><br><span class="time-text">секунд</span></div>
+								<div class="box"><span class="time" id="afss_hours_bv"></span><br><span class="time-text">часов</span></div>
+								<div class="box"><span class="time" id="afss_mins_bv"></span><br><span class="time-text">минут</span></div>
+								<div class="box"><span class="time" id="afss_secs_bv"></span><br><span class="time-text">секунд</span></div>
 							</div>
 							<div class="wrap-button-top-text">
 								<button class="button1">забронировать</button>
