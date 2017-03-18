@@ -44,8 +44,8 @@
 		<h3 class="why-question db-question_h3">Заказать звонок</h3>
 		<img src="../img/kres.png" alt="img" class="kres js-cres">
 		<form action="#" method="post" class="db-fast-form js-submit">
-			<input type="text" name="uname" placeholder="Имя" class="why-input db-input"><br>
-			<input type="text" name="phone" placeholder="Телефон" class="js-phone why-input db-input">
+			<input type="text" name="uname" placeholder="Имя" class="why-input db-input" required><br>
+			<input type="text" name="phone" placeholder="Телефон" class="js-phone why-input db-input" required>
 			<input type="submit" name="submit" value="Заказать" class="why-submit">
 		</form>
 	</div>
@@ -56,8 +56,8 @@
 		<h4 class="dfcaporigin2">Успейте приобрести по старым ценам!</h4>
 		<img src="../img/kres.png" alt="img" class="kres js-cres">
 		<form action="#" method="post" class="db-fast-form js-submit">
-			<input type="text" name="uname" placeholder="Имя" class="why-input db-input"><br>
-			<input type="text" name="phone" placeholder="Телефон" class="js-phone why-input db-input">
+			<input type="text" name="uname" placeholder="Имя" class="why-input db-input" required><br>
+			<input type="text" name="phone" placeholder="Телефон" class="js-phone why-input db-input" required>
 			<input type="submit" name="submit" value="Забронировать" class="why-submit">
 			<input type="hidden" name="name">
 			<input type="hidden" name="price">
