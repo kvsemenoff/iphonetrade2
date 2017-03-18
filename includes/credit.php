@@ -24,9 +24,9 @@
 				</div>
 
 				<div class="dfrightboxform">
-					<form action="#" method="post" class="">
-						<input type="text" name="uname" placeholder="Введите Ваше имя" class="why-input">
-						<input type="text" name="phone" placeholder="Введите Ваш телефон" class="why-input js-phone">
+					<form class="js-submit" action="#" method="post">
+						<input type="text" name="uname" placeholder="Введите Ваше имя" class="why-input" required>
+						<input type="text" name="phone" placeholder="Введите Ваш телефон" class="why-input js-phone" required>
 						<input type="submit" value="отправить" class="df-button dfsubmit">
 					</form>
 				</div>

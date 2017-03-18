@@ -9,12 +9,12 @@
 					<span class="dd-sp_2">+7 (812) 602-75-21</span>
 				</div>
 				<div class="dd-form">
-					<form class="form1" action="#" method="post">
+					<form class="js-submit" action="#" method="post">
 						<div class="dd-input_box mr">	
-							<input class="why-input" type="text" name="uname" placeholder="Введите Ваше имя">
+							<input class="why-input" type="text" name="uname" placeholder="Введите Ваше имя" required>
 						</div>
 						<div class="dd-input_box mr">	
-							<input type="text" class="why-input phone" name="phone" placeholder="Введите Ваш телефон">
+							<input type="text" class="why-input js-phone" name="phone" placeholder="Введите Ваш телефон" required>
 						</div>
 						<div class="dd-input_box dd-input_sub">	
 							<input type="submit" name="submit" class="js-submit why-submit" value="Перезвоните мне">

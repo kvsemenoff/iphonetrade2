@@ -39,9 +39,9 @@
 			<h3 class="why-question">Появились вопросы?</h3>
 			<p class="why-wecall">Мы перезвоним в течение 15 минут
 и с удовольствием на них ответим</p>
-			<form action="#" class="why-form js-submit">
-				<input type="text" class="why-input" name="uname" placeholder="Введите ваше имя">
-				<input type="text" class="why-input js-phone" name="phone" placeholder="Введите ваш телефон">
+			<form action="#" class="why-form js-submit" method="post">
+				<input type="text" class="why-input" name="uname" placeholder="Введите ваше имя" required>
+				<input type="text" class="why-input js-phone" name="phone" placeholder="Введите ваш телефон" required>
 				<input type="submit" class="why-submit" name="submit" value="Перезвоните мне">
 			</form>
 		</div>
