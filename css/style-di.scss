@@ -3,6 +3,28 @@ $f-l: "Lato-Thin";
 $f-b: "Lato-Bold";
 $f-h: "Lato-Heavy";
 $f-s: "Lato-Semibold";
+.button2{
+      outline      : none;
+      background-color: #fff;
+      padding: 17px 42px;
+      font-size: 20px;
+      color:#d5652c; 
+      border-radius: 35px;
+      border: 2px solid #d5652c;
+      font-family: 'Lato-Regular', sans-serif;
+      min-width:240px;
+}
+.button-mobile{
+      border: 2px solid #3c9a00;
+      color:#3c9a00;
+      outline      : none;
+      background-color: #fff;
+      padding: 17px 42px;
+      font-size: 20px;
+      border-radius: 35px;
+      font-family: 'Lato-Regular', sans-serif;
+      min-width:240px;
+  }
 	strong{
 		font-family: $f-h;
 	}
@@ -17,7 +39,7 @@ $f-s: "Lato-Semibold";
 }
 .wrap-mobile-phone{
 	margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 63px;
 }
 .wrap-mobile-logo{
 	margin-left: 30px;
@@ -44,6 +66,7 @@ $f-s: "Lato-Semibold";
 	font-family: $f-r; 
 }
 .wrap-button{
+	    margin-left: 20px;
 	margin-top: 10px;
 }
 .contentik{
@@ -101,7 +124,6 @@ $f-s: "Lato-Semibold";
 .timer-m{
 	margin-left: 10px;
 	.box{
-		margin: 6px; 
 		display: inline-block;
 		width: 62px;
 		height: 45px;
@@ -121,12 +143,12 @@ $f-s: "Lato-Semibold";
 }
 .wrap-m-button{
 	margin-top: 20px;
-	margin-left: 16px;
+	margin-left: 80px;
 }
 .crash-mobile-m{
 	z-index: -1;
 	margin-left: 220px;
-	margin-top: 78px;
+	margin-top: 91px;
 	position: absolute;
 	display: inline-block;
 	width: 86px;

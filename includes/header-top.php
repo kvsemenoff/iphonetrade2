@@ -50,12 +50,14 @@
 								</div>
 							</div>
 							<div class="timer">
-								<div class="box"><span class="time" id="afss_hours_bv"></span><br><span class="time-text">часов</span></div>
-								<div class="box"><span class="time" id="afss_mins_bv"></span><br><span class="time-text">минут</span></div>
-								<div class="box"><span class="time" id="afss_secs_bv"></span><br><span class="time-text">секунд</span></div>
+								<div class="box"><span class="time afss_hours_bv"></span><br><span class="time-text">часов</span></div>
+								<div class="box"><span class="time afss_mins_bv"></span><br><span class="time-text">минут</span></div>
+								<div class="box"><span class="time afss_secs_bv"></span><br><span class="time-text">секунд</span></div>
 							</div>
 							<div class="wrap-button-top-text">
-								<button class="button1">забронировать</button>
+								<div class="dfbutton">
+						<a href="#js-form2" class="df-button" name="js-modal">Забронировать</a>
+					</div>
 							</div>
 						</div>
 					</div>
@@ -117,13 +119,15 @@
 						</div>
 						
 						<div class="timer-m">
-							<div class="box"><span class="time" id="afss_hours_bv"></span><br><span class="time-text">часов</span></div>
-							<div class="box"><span class="time" id="afss_mins_bv"></span><br><span class="time-text">минут</span></div>
-							<div class="box"><span class="time" id="afss_secs_bv"></span><br><span class="time-text">секунд</span></div>
+							<div class="box"><span class="time afss_hours_bv"></span><br><span class="time-text">часов</span></div>
+								<div class="box"><span class="time afss_mins_bv"></span><br><span class="time-text">минут</span></div>
+								<div class="box"><span class="time afss_secs_bv"></span><br><span class="time-text">секунд</span></div>
 						</div>
 					</div>
 					<div class="wrap-m-button">
-						<button class="button1">Забронировать</button>
+						<div class="dfbutton">
+						<a href="#js-form2" class="df-button" name="js-modal">Заказать</a>
+					</div>
 					</div>
 					
 					<div class="col-sm-1"></div>
@@ -131,3 +135,57 @@
 			</div>
 		</div>
 	</section>
+<script>
+	var remain_bv   = 80768;
+	function parseTime_bv(timestamp){
+		if (timestamp < 0) timestamp = 0;
+		var day = Math.floor( (timestamp/60/60) / 24);
+		var hour = Math.floor(timestamp/60/60);
+		var mins = Math.floor((timestamp - hour*60*60)/60);
+		var secs = Math.floor(timestamp - hour*60*60 - mins*60); 
+		var left_hour = Math.floor( (timestamp - day*24*60*60) / 60 / 60 );
+		$('.afss_day_bv').text(day);
+		$('.afss_hours_bv').text(left_hour);
+		if(String(mins).length > 1)
+			$('.afss_mins_bv').text(mins);
+		else
+			$('.afss_mins_bv').text("0" + mins);
+		if(String(secs).length > 1)
+			$('.afss_secs_bv').text(secs);
+		else
+			$('.afss_secs_bv').text("0" + secs); 
+	}
+	$(document).ready(function(){
+		setInterval(function(){
+			remain_bv = remain_bv - 1;
+			parseTime_bv(remain_bv);
+		}, 1000);
+	});
+</script>
+<!-- <script>
+	var remain_bv   = 80768;
+function parseTime_bv(timestamp){
+	if (timestamp < 0) timestamp = 0;
+	var day = Math.floor( (timestamp/60/60) / 24);
+	var hour = Math.floor(timestamp/60/60);
+	var mins = Math.floor((timestamp - hour*60*60)/60);
+	var secs = Math.floor(timestamp - hour*60*60 - mins*60); 
+	var left_hour = Math.floor( (timestamp - day*24*60*60) / 60 / 60 );
+	$('#afss_day_bv_m').text(day);
+	$('#afss_hours_bv_m').text(left_hour);
+	if(String(mins).length > 1)
+		$('#afss_mins_bv_m').text(mins);
+	else
+		$('#afss_mins_bv_m').text("0" + mins);
+	if(String(secs).length > 1)
+		$('#afss_secs_bv_m').text(secs);
+	else
+		$('#afss_secs_bv_m').text("0" + secs); 
+}
+$(document).ready(function(){
+	setInterval(function(){
+		remain_bv = remain_bv - 1;
+		parseTime_bv(remain_bv);_m
+	}, 1000);
+});
+</script> -->
