@@ -831,7 +831,7 @@ hr {
     height: 500px; }
 
   .footer {
-    background: url("/img/footer-bg.jpg") 0 0 no-repeat;
+    background: url("../img/footer-bg.jpg") 0 0 no-repeat;
     background-size: cover; }
 
   .footer-logo__text {
@@ -998,7 +998,7 @@ strong {
   display: inline-block;
   width: 86px;
   height: 128px;
-  background-image: url(../img//crash-mobile-m.png); }
+  background-image: url(../img/crash-mobile-m.png); }
 
 @media only screen and (min-width: 480px) {
   .mobile {
